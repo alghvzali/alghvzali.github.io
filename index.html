@@ -1,134 +1,183 @@
 <!DOCTYPE html>
-<html lang="en" id="home">
-<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="utf-8">
-	<title>Portofolio</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Bungee+Outline" rel="stylesheet">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello_Friend</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Yesteryear&display=swap" rel="stylesheet"> 
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    
+  </head>
+  <body>
+    <nav class="navbar is-black" role="navigation" aria-label="main navigation">
+     <div class="container is-widescreen">
+      <div class="navbar-brand">
+        <div class="navbar-item name-title">
+          <h1>alghazali</h1>
+        </div>
+    
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+    
+      <div id="navbarBasicExample" class="navbar-menu" style="background-color:#0a0a0a;">
+        <div class="navbar-end">
+          <a href="#home" class="navbar-item">
+            Home
+          </a>
+    
+          <a href="#who" class="navbar-item">
+            Who?
+          </a>
 
-</head>
-<body>
+          <a href="#works" class="navbar-item">
+            Works
+          </a>
 
-	<!-- Navbar -->
-	<nav class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a href="#home" class="navbar-brand page-scroll">Al-Ghazali</a>
-			</div>
+          <div class="navbar-item">
+            <a href="#sayhi" class="button is-normal is-success is-rounded">
+              <h4>Say hi <i class="raise_hand"></i></h4>     
+            </a>
+          </div>
+        </div>
+       </div> 
+      </div>
+    </nav>
 
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#about" class="page-scroll">About</a></li>
-				<li><a href="#gallery" class="page-scroll">Gallery</a></li>
-			</ul>
-			</div>
+    <section id="home" class="hero is-large is-black">
+      <div class="hero-body">
+        <div class="container margin-hero">
+          <div class="columns">
+            <div class="column is-8-desktop is-offset-2-desktop">
+              <h1 class="title is-2 is-spaced" style="font-size:4em;"> 
+                Hello Friend!
+              </h1>
+              <h2 class="subtitle is-4" style="font-size:2em;">
+                  Congratulations! You're reaching this far to see <strong>Me</strong>.
+                  <br>
+                  I known for my <strong>Passion</strong> in creating things.
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-		</div>
-	</nav>
-	<!-- akhir Navbar -->
+    <section id="who" class="section">
+      <div class="columns">
+        <div class="column is-full">
+          <h1 style="font-size:4em;"><strong>Who he is?</strong></h1>
+        </div>
+      </div>
+      <div class="columns"></div>
+        <div class="column is-full">
+          <p style="font-size:2em;"><strong>Al-Ghazali</strong> is a <strong>Web Developer.</strong> He is fueled by his <strong>passion</strong> to make things real. He thinks of himself as someone who likes to build something <span style="text-decoration : line-through;">awesome</span> super awesome and unique.</p>
+        </div>
+      </div>
+    </section>
 
-	<!-- Jumbotron -->
-	<div class="jumbotron text-center" id="home">
-		<img src ="img/me.jpg" class="img-circle">
-		<h1>Fariz Muhammad</h1>
-		<p>Student | Coding Enthusiast | Human</p>
-	</div>
-	<!-- Akhir Jumbotron -->
+    <section id="works" class="section">
+      <div class="columns">
+        <div class="column is-full">
+          <h1 style="font-size:4em;"><strong-reverse>What has he created?</strong-reverse></h1>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <div class="box">
+            <article class="media">
+              <div class="media-left">
+              <a href="https://findapet.000webhostapp.com" target="_blank">
+                <figure class="image is-64x64">
+                  <img src="img/findapet-font.PNG" alt="findapet image">
+                </figure>
+              </a>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>findapet</strong> <small>created in</small> <small>2019</small>
+                    <br>
+                    findapet is a place for finding pets adoption.
+                  </p>
+                </div>
+                
+              </div>
+            </article>
+          </div>
+        </div>
 
-	<!-- About -->
-	<section class="about" id="about">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12">
-						<h2 class="text-center">About</h2>
-						<hr>
-					</div>
-				</div>
+        <div class="column">
+          <div class="box">
+            <article class="media">
+              <div class="media-left">
+              <a href="http://ghazilla.ga" target="_blank">
+                <figure class="image is-64x64">
+                  <img src="img/ghazilla-font.PNG" alt="Ghazilla image"> 
+                </figure>
+              </a>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>Ghazilla</strong> <small>created in</small> <small>2018</small>
+                    <br>
+                    Ghazilla is a digital agency, focusing in website development.
+                  </p>
+                </div>
+                
+              </div>
+            </article>
+          </div>
+      </div>
+    </section>
 
-				<div class="row">
-					<div class="col-sm-5 col-sm-offset-1">
-						<p class="pKiri">Let me introduce my self. My name is Fariz Muhammad Al-Ghazali, i was born in Banda Aceh on March 12, 2000. I am currently living in Neverland... just kidding. I am still living in Banda Aceh.</p>
-					</div>
-					<div class="col-sm-5">
-						<p class="pKanan">I am interesting in Tech and Stuff like that. I learn to code and i like playing video games. One of my favorite video games is like GTA V, Call Of Duty, Skyrim.</p>
-					</div>
-				<div class="row">
-					<div class="col-sm-10 col-sm-offset-1">
-					<br>
-					<blockquote class="blockquote">
-						<p class="h1">Bitch you broke my heart. But you forgot to broke my kidneys.</p>
-						<foot class="blockquote-footer">
-						- Fariz Muhammad Al-Ghazali in <cite title="Source Title">A Nutshell</cite>
-						</foot>
-					</blockquote>
-					<br>
-					</div>
-				</div>
-				</div>
-			</div>
-	</section>
-	<!-- akhir About -->
+    
+    <section id="sayhi" class="section">
+      <div class="columns">
+        <div class="column is-half is-offset-one-quarter">
+          <h1 style="font-size:4em;"><strong>Let's get in touch</strong></h1>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-half is-offset-one-quarter">
+          <p style="font-size:2em;">If you want to do business and want to buy me a <strong>Coffee</strong> or just want to say hi. Contact me here : 
+            <a class="email" href="mailto:farizjr12@gmail.com" style="color:#0a0a0a;"><strong>farizjr12@gmail.com</strong></a>
+          </p>
 
-	<!-- Gallery -->
-	<section class="gallery" id="gallery">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12">
-					<h2 class="text-center">Gallery</h2>
-					<hr>
-				</div>
-			</div>
-		</div>
+        </div>
+      </div>
+    </section>
 
-		<div class="row text-center">
-			<div class="col-sm-4">
-				<a href="" class="thumbnail">
-					<img src="img/3.jpg" alt="">
-				</a>
-			</div>
-			<div class="col-sm-4">
-				<a href="" class="thumbnail">
-					<img src="img/2.jpg" alt="">
-				</a>
-			</div>
-			<div class="col-sm-4">
-				<a href="" class="thumbnail">
-					<img src="img/1.jpg" alt="">
-				</a>
-			</div>
-		</div>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <a href="http://github.com/alghvzali" target="_blank" style="color:white; padding-right: 20px;"><i class="fab fa-github" style="font-size:2em;"></i></a>
+          <a href="https://www.instagram.com/tedfuckingreed" target="_blank" style="color:white;"><i class="fab fa-instagram" style="font-size:2em;"></i></a>
+          <a href="https://www.facebook.com/yungdeauth" target="_blank" style="color:white;"><i class="fab fa-facebook" style="font-size:2em;"></i></a>
+        </p>
+      </div>
+    </footer>
+    
+    <script type="text/javascript" src="lib/main.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
 
-	</section>
+      // Check for click events on the navbar burger icon
+      $(".navbar-burger").click(function() {
 
-	<!-- footer -->
-	<footer>
-		<div class="container text-center">
-			<div class="row">
-				<div class="col-sm-12">
-					<br>
-					<p>&copy; 2017 | Code with <i class="glyphicon glyphicon-heart"></i> By <a href="https://plus.google.com/u/1/+farizmuhammadalghazali">Fariz Muhammad</a></p>
-					<a href="https://www.facebook.com/FarizJR12" class="fa fa-facebook"></a>
-					<a href="https://www.instagram.com/alghvzali" class="fa fa-instagram"></a>
-				</div>
-			</div>
-		</div>
-	</footer>
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          $(".navbar-burger").toggleClass("is-active");
+          $(".navbar-menu").toggleClass("is-active");
 
-	<!-- JQuery -->
-	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-	<script type="text/javascript" src="js/jquery.easing.js"></script>
-	<script type="text/javascript" src="js/bootstrap.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
-
-</body>
+      });
+      });
+    </script>
+  </body>
 </html>
-
